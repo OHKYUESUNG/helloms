@@ -1,9 +1,7 @@
 name: Build EXE
 
 on:
-  push:
-    paths:
-      - main.py
+  workflow_dispatch:
 
 jobs:
   build-windows-exe:
